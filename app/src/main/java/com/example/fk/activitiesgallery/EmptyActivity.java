@@ -1,9 +1,8 @@
 package com.example.fk.activitiesgallery;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class EmptyActivity extends AppCompatActivity {
+public class EmptyActivity extends NavigationDrawerActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
