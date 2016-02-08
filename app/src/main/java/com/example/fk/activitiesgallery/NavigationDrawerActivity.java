@@ -1,5 +1,6 @@
 package com.example.fk.activitiesgallery;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -93,6 +94,12 @@ public class NavigationDrawerActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_send) {
 
+        } else if (id == R.id.nav_activity_empty) {
+            Intent intent = new Intent(this, EmptyActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_activity_navigation_drawer) {
+            Intent intent = new Intent(this, NavigationDrawerActivity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
