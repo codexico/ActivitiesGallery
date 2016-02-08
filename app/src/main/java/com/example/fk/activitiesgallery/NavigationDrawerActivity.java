@@ -100,6 +100,9 @@ public class NavigationDrawerActivity extends AppCompatActivity
         } else if (id == R.id.nav_activity_navigation_drawer) {
             Intent intent = new Intent(this, NavigationDrawerActivity.class);
             startActivity(intent);
+        } else if (id == R.id.nav_activity_blank) {
+            Intent intent = new Intent(this, BlankActivity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
