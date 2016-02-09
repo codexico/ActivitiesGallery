@@ -12,6 +12,9 @@
             <item
                 android:id="@+id/nav_activity_blank"
                 android:title="Blank" />
+            <item
+                android:id="@+id/nav_activity_scrolling"
+                android:title="Scrolling" />
         </menu>
     </item>
 
